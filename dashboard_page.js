@@ -34,6 +34,6 @@ window.onload = function(){
         signoutlink.classList.remove("btn-success");
         signoutlink.href = "index.html";
 
-        page.style.display = "none";
+        // page.style.display = "none";
     }
 }
