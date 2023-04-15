@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+
+
+</head>
+
+<body>
+    <div class="login">
+        <form class="login-form" onsubmit="signup(event)">
+            <h1>Login</h1>
+            <input type="text" id="username" name="fname" placeholder="Username" class="username" autocomplete="off" spellcheck="false"><br>
+            <input type="password" id="password" name="lname" placeholder="Password" class="password" autocomplete="off" spellcheck="false"> <br>
+          
+            <input type="button" name="login-btn" id="login-btn" value="Login" class="login-btn">
+            <a class="request-id" id="request-id">
+                <h5>Request ID and Pass form ADMIN</h5>
+            </a>
+        </form>
+    </div>
+
+
+  
+   
+    <!-- Script files -->
+    <script type="module" src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="signup_style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+
+
+</head>
+
+<body>
+    <div class="login">
+        <form class="login-form" onsubmit="signup(event)">
+            <h1>Sign Up</h1>
+            <input type="text" id="username" name="fname" placeholder="Username" class="username" autocomplete="off" spellcheck="false"><br>
+            <input type="email" id="email" name="fname" placeholder="Email" class="email" autocomplete="off" spellcheck="false"><br>
+            <input type="password" id="password" name="lname" placeholder="Password" class="password" autocomplete="off" spellcheck="false"> <br>
+           
+            <!-- <button type="button" onclick="get">Login</button> -->
+            
+            <select name="Role" id="role" class="role">
+                <option value="admin">Admin</option>
+                <option value="author">Author</option>
+                <option value="graphic desinger">Graphic Designer</option>
+                <option value="content researcher">Content Researcher</option>
+                <option value="social media manager">Social Media Manager</option>
+              </select>
+              <input type="button" name="login-btn" id="login-btn" value="Sign Up" class="login-btn">
+        </form>
+    </div>
+
+
+
+
+
+    <!-- Firebase auth -->
+  
+   
+    <!-- Script files -->
+    <script type="module" src="signup_page.js"></script>
+
+</body>
+
+</html>

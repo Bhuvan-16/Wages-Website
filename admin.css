@@ -1,0 +1,22 @@
+body{
+    background-color: #212129;
+    /* margin: 0; */
+    /* padding: 20px 10px; */
+    height: 100vh;
+    overflow: hidden;
+}
+.header {
+    padding: 10px;
+    text-align: center;
+    background: #323949;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.content h2{
+    margin-left: 20px;
+    margin-top: 50px;
+    color: white;
+}

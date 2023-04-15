@@ -1,0 +1,88 @@
+body{
+    background-color: #212129;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 450px;
+    background: #323949;
+    border-radius: 10px;
+    text-align: center;
+}
+.login h1{
+    text-align: center;
+    color: white;
+    border-bottom: 1px solid 	#4c5265;
+    padding: 0 0 20px 0;
+}
+
+.login form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+form .username{
+    position: relative;
+    margin: 15px 0;
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    
+}
+
+form .email{
+    position: relative;
+    margin: 15px 0;
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+}
+
+form .password{
+    position: relative;
+    margin: 15px 0;
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+}
+
+form .login-btn{
+    position: relative;
+    margin: 16px 0;
+    width: 75%;
+    height: 33px;
+    background: pink;
+    border: none;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+form .login-btn:hover{
+    background: rgb(231, 124, 142);
+}
+
+form .role{
+    position: relative;
+    margin: 15px 0;
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+}
