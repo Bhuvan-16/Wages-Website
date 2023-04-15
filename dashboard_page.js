@@ -8,6 +8,7 @@ var currentUser = null;
 function getUsername(){
 
     currentUser = JSON.parse(sessionStorage.getItem('user'));
+    return currentUser;
     
 }
 
@@ -20,11 +21,10 @@ window.onload = function(){
     getUsername();
     if(currentUser == null){
         Navbar.style.display = "none";
-        
     }
     else{
         
-        userlink.innerText= "Hello " + currentUser.Username;
+        userlink.innerText= "Hello " + currentUser.Username +" 😁";
         userlink.classList.replace("btn", "nav-link");
         userlink.classList.remove("btn-primary");
         userlink.href = "#";
@@ -36,4 +36,8 @@ window.onload = function(){
 
         // page.style.display = "none";
     }
+    $("div#content #name").html(currentUser.Username);
+    $("div#content #email").html(currentUser.Email);
+    $("div#content #balance").html(currentUser.Wages);
+
 }

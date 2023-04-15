@@ -1,39 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin</title>
-    <link rel="stylesheet" href="admin.css">
+    <title>Add Points</title>
+    <link rel="stylesheet" href="points.css">
 </head>
-
 <body>
     <div class="header">
-        <h1 class="heading">Admin Panel</h1>
+        <h1>Manage Points</h1>
     </div>
-
     <div class="content">
-        <h2>Workers list</h2>
-        <div class="workers-list">
-            <table id="datatable">
-                <tr>
-                    <th>Name</th>
-                    <th>Role</th>
-                    <th>Money</th>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </table>
-
+        <h2>Select User :</h2>
+        <div>
+        <select id="dataMenu" class="dataMenu">
+        </select>
+        <button id="get_wages" class="show-btn">Show</button>
+        <br>
+        <div class="value" id="value">
+            <h2>Points - <label></label></h2>
         </div>
-        <div class="Points">
-            <button class="add-points" id="addpoints">Add Points</button>
-        </div>
+        <!-- <label>Wages - <label id="value"></label></label> -->
+        <br>
+        <input type="number" name="points" id="points" placeholder="Enter the Points" class="points">
+        <br>
+        <button class="done" id="submit">Done</button>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -42,7 +34,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
-    <script type="module" src="admin_console.js"></script>
-</body>
 
+        <script type="module" src="addpoints.js"></script>
+</body>
 </html>

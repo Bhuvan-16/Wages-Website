@@ -4,3 +4,11 @@
     color: black;
     padding-left: 10px;
 }
+body{
+    background-color: #212129;
+}
+.content{
+    margin: 15px;
+    color: white;
+    
+}

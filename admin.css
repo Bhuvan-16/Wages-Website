@@ -20,3 +20,91 @@ body{
     margin-top: 50px;
     color: white;
 }
+.content h3{
+    color: white;
+}
+
+
+.workers_list{
+    margin: 10px 70px 70px;
+    box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+}
+
+table {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: #323949;
+}
+
+table th{
+    border-bottom: 1px solid #212129;
+}
+table td, table th {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-right: 1px solid #212129;
+    padding: 8px;
+}
+
+table td {
+    border-right: 1px solid #212129;
+    font-size: 15px;
+}
+
+table thead th {
+    color: #323949;
+    background: #4FC3A1;
+}
+
+
+table thead th:nth-child(odd) {
+    color: #323949;
+    background: #324960;
+}
+
+table tr:nth-child(even) {
+    background: #4b5161;
+}
+.Points{
+    text-align: center;
+    /* background: #323949; */
+    
+}
+
+.Points .add-points{
+    position: relative;
+    margin: 50px;
+    width: 25%;
+    height: 33px;
+    background: pink;
+    border: none;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+.Points .add-points:hover{
+    background: rgb(231, 124, 142);
+    width: 30%;
+}
+
+.Points .sub-points{
+    position: relative;
+    margin: 50px;
+    width: 25%;
+    height: 33px;
+    background: pink;
+    border: none;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.Points .sub-points:hover{
+    background: rgb(231, 124, 142);
+    width: 30%;
+}
