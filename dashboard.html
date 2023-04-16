@@ -14,55 +14,29 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary nice" id="navbar" >
-         <!-- <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
-            </ul>  -->
+    <div class="header" id="navbar" >
+         
             <form class="d-flex" role="search">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item mx-1">
                       <a class="user" id="linkeduser" aria-current="page" href="#">Username</a>
                     </li>
 
+                    <div class="signout_view">
                     <li class="nav-item mx-1">
-                        <a href="#" id="signout" class="nav-link">Sign Out</a>
+                        <a href="#" id="signout" class="signout">Sign Out</a>
                     </li>
-                    
+                  </div>
                    </ul>
             </form>
           </div>
         </div>
-      </nav>
+      </div>
 
       <div id="content" class="content">
         <h2>Name - <label id="name"></label></h2>
         <h2>Email - <label id="email"></label></h2>
-        <h2>Balance - <label id="balance"></label></h2>
+        <h2>Balance - $ <label id="balance"></label></h2>
       </div>
     
     <!-- Javascript -->

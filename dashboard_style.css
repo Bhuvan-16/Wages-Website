@@ -1,14 +1,44 @@
-.user{
-    text-decoration: none;
-    font-size: 1.5rem;
-    color: black;
-    padding-left: 10px;
-}
+
 body{
     background-color: #212129;
+    overflow: hidden;
+
 }
+
+.header{
+    background-color: #323949;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+}
+.header .user{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.signout_view{
+    color: #FFFFFF;
+    font-size: 1.1em;
+    position: absolute;
+    right: 15px;
+    text-align: right;
+}
+.signout_view .signout{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #212129;
+    transition: 0.3s;
+}
+.signout_view .signout:hover{
+    background-color: #212129;
+    border-radius: 15px;
+}
+
 .content{
     margin: 15px;
     color: white;
-    
 }
